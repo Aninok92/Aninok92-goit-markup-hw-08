@@ -1,0 +1,16 @@
+.logo {
+  color: var(--accent-color);
+  font-family: var(--secondary-font-family);
+
+  @include font(26px, 700, 1.192, 0.03em);
+
+  text-decoration: none;
+
+  &--black-theme {
+    color: #000000;
+  }
+
+  &--white-theme {
+    color: var(--primary-white-color);
+  }
+}
