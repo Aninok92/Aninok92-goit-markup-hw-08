@@ -52,6 +52,10 @@
 
   @include font(14px, 700, 1.142, 0.03em);
   text-transform: uppercase;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .advantages__text {

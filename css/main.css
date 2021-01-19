@@ -576,6 +576,12 @@ img {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+  .advantages__subtitle {
+    text-align: center;
+  }
+}
+
 .advantages__text {
   line-height: 1.714;
   color: var(--secondary-text-color);
